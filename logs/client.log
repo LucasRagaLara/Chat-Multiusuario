@@ -1,0 +1,19 @@
+2024-01-17 17:52:05,880 - INFO - Configurado el log
+2024-01-17 17:52:05,880 - INFO - Creado el socket
+2024-01-17 17:52:07,901 - DEBUG - Ha ocurrido un error en iniciar_cliente()
+2024-01-17 17:52:24,422 - INFO - Configurado el log
+2024-01-17 17:52:24,422 - INFO - Creado el socket
+2024-01-17 17:52:26,452 - DEBUG - Ha ocurrido un error en iniciar_cliente()
+2024-01-17 17:53:52,529 - INFO - Configurado el log
+2024-01-17 17:53:52,530 - INFO - Creado el socket
+2024-01-17 17:53:54,553 - DEBUG - Ha ocurrido un error en iniciar_cliente()
+2024-01-17 17:55:55,858 - INFO - Configurado el log
+2024-01-17 17:55:55,859 - INFO - Creado el socket
+2024-01-17 17:55:57,881 - DEBUG - Ha ocurrido un error en iniciar_cliente()
+2024-01-17 17:58:10,984 - INFO - Configurado el log
+2024-01-17 17:58:10,985 - INFO - Creado el socket
+2024-01-17 17:58:10,987 - INFO - Conectado el socket con el servidor en el puerto 65432 y en la dirección localhost 
+2024-01-17 17:58:10,988 - INFO - Recepción del mensaje Introduce tu nombre de usuario: 
+2024-01-17 17:58:15,482 - INFO - Envío del mensaje: lucas
+2024-01-17 17:58:19,610 - INFO - Envío del mensaje: hola
+2024-01-17 17:58:23,202 - INFO - Envío del mensaje: que tal?

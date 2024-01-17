@@ -1,6 +1,7 @@
 import socket
 import threading
 import logging
+import os 
 
 class Cliente:
     def __init__(self, HOST='localhost', PORT=65432):
@@ -8,7 +9,11 @@ class Cliente:
         self.PORT = PORT
         self.logger = logging.getLogger(__name__)
         logging_format = '%(asctime)s - %(levelname)s - %(message)s'
-        logging.basicConfig(filename="C:\\Users\\lucas\\Downloads\\a_practicas_examen\\dws\\ejercicio_chat_multiusuario\\logs\\client.logs", level=logging.DEBUG, format=logging_format)
+        # logging.basicConfig(filename="C:\\Users\\lucas\\Downloads\\a_practicas_examen\\dws\\ejercicio_chat_multiusuario\\logs\\client.logs", level=logging.DEBUG, format=logging_format)
+        script_dir = os.path.dirname(__file__)
+# Construye la ruta relativa para el archivo de registro en el directorio 'logs'
+        log_file_path = os.path.join(script_dir, 'logs', 'client.log')
+        logging.basicConfig(filename=log_file_path, level=logging.DEBUG, format=logging_format)
         #muestra los logs en la consola
         # console_handler = logging.StreamHandler()
         # console_handler.setLevel(logging.INFO)
